@@ -1,0 +1,54 @@
+
+h1  {
+    text-align: center;
+    
+
+}
+
+#Lista1 {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+.separador {
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.separador {
+    display: inline;
+    padding: 0.5px;
+}
+li {
+    width: 10%;
+    float: left;
+    margin-left: 12%;
+    text-align: center;
+    
+    
+    
+}
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    line-height: 400px;
+    
+}
+.container > div {
+   width: 10%;
+    float: left;
+    margin-left: 12%;
+    text-align: center;
+}
+    
