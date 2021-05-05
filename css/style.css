@@ -2,7 +2,16 @@
 .visibledesktop {text-align: center;
     margin: 100px;
 }
-
+@media  (max-width: 320px) {
+    .bg {
+      display: none;
+        }
+    }
+body, html{  
+    height: 100%;
+    margin: 0;
+    
+    }
 @media (max-width : 320px) {
     .visibledevice {display:block;
     float: left; margin-top: -50px;
@@ -14,27 +23,55 @@
     100% {opacity: 1;}
 
 }
-@keyframes cgimage {
-    from {background-image: url(../images/bdd.jpg);} 
-    to {background-image: url(../images/beer.jpg);} 
-}
 @font-face {
     font-family: ironman;
     src: url(../fonts/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
 }
+* {
+    box-sizing: border-box;
+  }
+.pagina {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.pagina2 {
+    top: 800px;
+    left: 0;
+    position: absolute;
+    
+}
+.img1 {
+    background-image: url("../images/beer.jpg");
+    
+}
+.img2 {
+    background-image: url("../images/placeholder.jpg");
+}
+.img3 {
+    background-image: url("../images/placeholder2.jpg");
+}
+.img4 {
+    background-image: url("../images/placeholder3.webp");
+}
+.bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -5;
+    background-attachment: fixed;
+  }
+  
 .top {
     
     animation: cgimage;
-    background: url(../images/beer.jpg);  
+
     animation-duration: 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     z-index: -5;
-    position: absolute;
-    left: 0;
-    top: 0;    
-    width: 100%;
-    height: auto;
+    
     
 }
 h1  {
