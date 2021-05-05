@@ -1,8 +1,32 @@
+@keyframes images {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 
+}
+@font-face {
+    font-family: ironman;
+    src: url(../fonts/IRON\ MAN\ OF\ WAR\ 002\ NCV.ttf);
+}
+#bg img.top {
+    
+    animation: images;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: -5;
+    position: absolute;
+    left: 0;
+    top: 0;    
+    width: 100%;
+    height: auto;
+}
 h1  {
     text-align: center;
-    
-
+    line-height: 150px;
+    font-family: ironman;
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
 }
 
 #Lista1 {
@@ -31,24 +55,9 @@ li {
     float: left;
     margin-left: 12%;
     text-align: center;
-    
-    
-    
 }
 ul {
     list-style-type: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    line-height: 400px;
-    
-}
-.container > div {
-   width: 10%;
-    float: left;
-    margin-left: 12%;
-    text-align: center;
-}
     
