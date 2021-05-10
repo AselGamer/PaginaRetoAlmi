@@ -13,7 +13,10 @@ body, html{
     }
     .visibledesktop {display:none;}
 }
-
+@font-face{
+    font-family: calm;
+    src: url(../fuentes/KeepCalm-Medium.ttf);
+}
 h1  {
     text-align: center;
     line-height: 150px;
@@ -65,4 +68,16 @@ footer {
     height: 15px;
     align-items: center;  
     position: fixed;
+}
+h1 {
+    font-family: calm;
+    font-size: 80px;
+}
+p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+
 }
