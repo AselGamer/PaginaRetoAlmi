@@ -1,0 +1,137 @@
+.visibledevice {display:none;}
+.visibledesktop {display:block;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(25, 39, 52);
+
+    }
+@media (max-width : 320px) {
+    .visibledevice {display:block;
+    }
+    .visibledesktop {display:none;}
+}
+@font-face{
+    font-family: calm;
+    src: url(../fuentes/KeepCalm-Medium.ttf);
+}
+h1  {
+    text-align: center;
+    line-height: 150px;
+    font-size: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.head a, img {
+    color: white;
+    margin-left: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 1;
+}
+.head img {
+ max-width: 32px;
+ max-height: 32px;
+}
+.head a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    color: white;
+    position: fixed;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    align-items: center;
+    position: fixed;
+}
+h1 {
+    font-family: calm;
+    font-size: 80px;
+}
+p {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.langs {
+    color: white;
+    margin-left: 36px;
+    opacity: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: black;
+    top: 0;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    box-shadow: 0.3px 0.3px 15px white;
+
+}
+
+.langs > a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.imagen1 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen2 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2 {
+    color: white;
+    font-family: calm;
+    font-size: 40px;
+}
+h3 {
+    color: white;
+    font-family: calm;
+    font-size: 40px;
+}
+.imagen3 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen4 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
