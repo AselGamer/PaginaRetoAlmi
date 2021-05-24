@@ -2,17 +2,12 @@
 .visibledesktop {display:block;
 }
 
-body, html{  
+body, html{
     height: 100%;
     margin: 0;
     background-color: rgb(25, 39, 52);
-    
+
     }
-@keyframes anim1{
-    0% {font-size: 100px;}
-    50% {font-size: 150px;}
-    100% {font-size: 100px;}
-}
 @media (max-width : 320px) {
     .visibledevice {display:block;
     }
@@ -22,28 +17,14 @@ body, html{
     font-family: calm;
     src: url(../fuentes/KeepCalm-Medium.ttf);
 }
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90%;
-}
-
 h1  {
     text-align: center;
+    line-height: 150px;
     font-size: 100px;
     text-decoration: none;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    animation-name: anim1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    transition: color 2s;
-}
-h1:hover {
-    color: black;
+
 }
 
 .head {
@@ -60,9 +41,9 @@ h1:hover {
     opacity: 1;
 }
 .head img {
- max-width: 64px;   
- max-height: 64px;
-}
+    max-width: 64px;   
+    max-height: 64px;
+   }
 .head a {
     text-decoration: none;
     color: white;
@@ -81,7 +62,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 15px;
-    align-items: center;  
+    align-items: center;
     position: fixed;
 }
 h1 {
@@ -98,7 +79,7 @@ p {
 .langs {
     color: white;
     margin-left: 36px;
-    opacity: 1;  
+    opacity: 1;
 }
 nav {
     display: flex;
@@ -110,7 +91,7 @@ nav {
     height: 50px;
     align-items: center;
     box-shadow: 0.3px 0.3px 15px white;
-    
+
 }
 
 .langs > a {
@@ -118,4 +99,47 @@ nav {
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+
+}
+.imagen1 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen2 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2 {
+    color: white;
+    font-family: calm;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+h3 {
+    color: white;
+    font-family: calm;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.imagen3 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen4 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.right {
+    float: right;
+    margin-right: 25px;
 }
