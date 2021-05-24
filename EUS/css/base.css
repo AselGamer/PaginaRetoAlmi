@@ -116,14 +116,15 @@ nav {
 h2 {
     color: white;
     font-family: calm;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 10px;
+    
 }
 h3 {
     color: white;
     font-family: calm;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -138,8 +139,4 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-.right {
-    float: right;
-    margin-right: 25px;
 }

@@ -2,11 +2,11 @@
 .visibledesktop {display:block;
 }
 
-body, html{
+body, html{  
     height: 100%;
     margin: 0;
     background-color: rgb(25, 39, 52);
-
+    
     }
 @media (max-width : 320px) {
     .visibledevice {display:block;
@@ -24,7 +24,7 @@ h1  {
     text-decoration: none;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    
 }
 
 .head {
@@ -41,7 +41,7 @@ h1  {
     opacity: 1;
 }
 .head img {
- max-width: 32px;
+ max-width: 32px;   
  max-height: 32px;
 }
 .head a {
@@ -62,7 +62,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 15px;
-    align-items: center;
+    align-items: center;  
     position: fixed;
 }
 h1 {
@@ -79,7 +79,7 @@ p {
 .langs {
     color: white;
     margin-left: 36px;
-    opacity: 1;
+    opacity: 1;  
 }
 nav {
     display: flex;
@@ -91,15 +91,13 @@ nav {
     height: 50px;
     align-items: center;
     box-shadow: 0.3px 0.3px 15px white;
-
+    
 }
-
 .langs > a {
     list-style: none;
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-
 }
 .imagen1 {
     max-width: 50%;
@@ -116,14 +114,14 @@ nav {
 h2 {
     color: white;
     font-family: calm;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 10px;
 }
 h3 {
     color: white;
     font-family: calm;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -139,7 +137,9 @@ h3 {
     margin-right: auto;
     display: block;
 }
-.right {
-    float: right;
-    margin-right: 25px;
+.imagen5 {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }

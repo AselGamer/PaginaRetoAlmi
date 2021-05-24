@@ -117,11 +117,15 @@ h2 {
     color: white;
     font-family: calm;
     font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 h3 {
     color: white;
     font-family: calm;
     font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .imagen3 {
     max-width: 50%;
@@ -134,4 +138,8 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.right {
+    float: right;
+    margin-right: 25px;
 }
