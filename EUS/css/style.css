@@ -60,8 +60,8 @@ h1:hover {
     opacity: 1;
 }
 .head img {
- max-width: 32px;   
- max-height: 32px;
+ max-width: 64px;   
+ max-height: 64px;
 }
 .head a {
     text-decoration: none;
